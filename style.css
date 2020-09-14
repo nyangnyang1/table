@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+/* td,
+th {
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 8px;
+} */
+
+/* 테이블01 */
+table.tbl-01 td,
+table.tbl-01 th {
+  border: 1px solid#ccc;
+  padding: 8px;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+/* 테이블02 */
+table.tbl-02 td,
+table.tbl-02 th {
+  border: 1px solid#ccc;
+
+  padding: 8px;
+}
+
+.tbl-02 tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+/* 테이블03 */
+table.tbl-03 td,
+table.tbl-03 th {
+  border: 1px solid #efefef;
+  padding: 8px;
+}
+.tbl-03 th {
+  background-color: #efefef;
+}
+.tbl-03 tr:nth-child(1) th {
+  background-color: #666;
+  color: #ffffff;
+}
