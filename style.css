@@ -33,6 +33,10 @@ table.tbl-01 th {
   padding: 8px;
 }
 
+.tbl-01 th {
+  background-color: #efefef;
+}
+
 /* tr:nth-child(even) {
   background-color: #dddddd;
 } */
@@ -55,10 +59,68 @@ table.tbl-03 th {
   border: 1px solid #efefef;
   padding: 8px;
 }
+
 .tbl-03 th {
   background-color: #efefef;
 }
+
 .tbl-03 tr:nth-child(1) th {
   background-color: #666;
   color: #ffffff;
+}
+
+/* 테이블04 */
+
+.tbl-04 {
+  border-top: 2px solid #666;
+}
+
+table.tbl-04 td,
+table.tbl-04 th {
+  border-bottom: 1px solid#ccc;
+  padding: 8px;
+}
+
+.tbl-04 th {
+  background-color: #efefef;
+}
+
+/* 테이블05 */
+table.tbl-05 td,
+table.tbl-05 th {
+  border: 1px solid#ccc;
+  border-left: none;
+
+  padding: 8px;
+}
+
+.tbl-05 th {
+  background-color: #efefef;
+  text-align: center;
+}
+
+.tbl-05 td:last-child {
+  border-right: 0;
+}
+
+/* 테이블06 */
+table.tbl-06 td,
+table.tbl-06 th {
+  border: 1px solid#ccc;
+  padding: 8px;
+}
+
+.tbl-01 th {
+  background-color: #efefef;
+}
+
+/* 테이블07 */
+table.tbl-07 td,
+table.tbl-07 th {
+  border: 1px solid#ccc;
+  padding: 8px;
+}
+
+.tbl-07 th {
+  background-color: #efefef;
 }
